@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Complete Travel Website Html Css</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+<body>
+	<header>
+		<a href="#" class="logo">Travel</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#destination">Tour</a></li>
+			<li><a href="#package">Hotel</a></li>
+            <li><a href="#package">Places</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+            <li><a href="#myDropdown" >Book now</a></li>
+		</ul>
+	</header>
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>Discover The World <br> With Us</h1>
+			<a href="#" class="home-btn">Start Tour</a>
+		</div>
+        <div class="dropdown">
+            <div id="myDropdown" class="dropdown-content">
+              <form action="reservation.php" method="post" class="form">
+                <div class="elem-group">
+                  <label for="name">Destination</label>
+                  <input type="text" id="name"   placeholder=" "   required>
+                  <label for="adult">Members</label>
+                  <input type="number" id="adult" name="total_adults" placeholder="0" min="0" required>
+                  <label for="checkin-date">Check-in Date</label>
+                  <input type="date" id="checkin-date" name="checkin" required>
+                  <label for="checkout-date">Check-out Date</label>
+                  <input type="date" id="checkout-date" name="checkout" required><br><br>
+                  <button type="submit" style=" border-radius: 20px;color:red;width: 200px;">Book The Rooms</button>
+              </form>         
+            </div>
+          </div>
+	</section>  
+    <section class="newsletter">
+		<div class="send">
+            <img src="./img/group-active-tourists-gathering-vehicle-minivan-with-bike-top-moving-flat-illustration_74855-10702.jpg" alt="" width="400px";height="300px">
+		</div>
+        <div class="news-text">
+			<h2>Amezing Places to <br> injoy your Travel</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="home-btn4">Explore More</a>
+        </div>
+	</section>
+    <section class="newsletter">
+		<div class="news-text">
+			<h2>Beautiful Places Of <br> The World</h2>		 
+		</div>
+		<div class="send">
+            <form action="" style="width:100px">
+                <input type="submit" value="View all" >
+            </form>
+		</div>
+	</section>
+    <section class="package" id="package">
+		<div class="package-content">
+			<div class="box">
+				<div class="thum">
+					<img src="./img/effieltower3.jpg">
+                    <h4 style="text-align: center;">Eiffel Tower</h4>
+				</div>
+			</div>
+			<div class="box">
+				<div class="thum">
+					<img src="./img/effieltower3.jpg">
+                    <h4 style="text-align: center;">Eiffel Tower</h4>
+				</div>
+			</div>
+			<div class="box">
+				<div class="thum">
+					<img src="./img/effieltower3.jpg">
+                    <h4 style="text-align: center;">Eiffel Tower</h4>
+				</div>	 
+			</div>
+		</div>
+	</section>
+    <section class="package" id="package">
+		<div class="title">
+			<h2>Most Popular Tours <br> for You</h2>
+		</div>
+		<div class="package-content1">
+			<div class="box">
+				<div class="thum">
+					<img src="./img/img1.png">
+					<h3>$499</h3>
+				</div>
+				<div class="dest-content">
+					<div class="location">
+						<h4>London</h4>
+						<p>4h - 5h</p>
+					</div>
+                    <a href="#" class="home-btn2">Book now</a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="thum">
+					<img src="./img/img2.png">
+					<h3>$499</h3>
+				</div>
+				<div class="dest-content">
+					<div class="location">
+						<h4>New York</h4>
+						<p>4h - 5h</p>
+					</div>
+                    <a href="#" class="home-btn2">Book now</a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="thum">
+					<img src="./img/img3.png">
+					<h3>$499</h3>
+				</div>
+				<div class="dest-content">
+					<div class="location">
+						<h4>Dubai</h4>
+						<p>4h - 5h</p>
+					</div>
+                    <a href="#" class="home-btn2">Book now</a>
+				</div>
+			</div>
+		</div>   
+	</section>
+    <a href="#" class="home-btn1">View all</a>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img class="image" src="./img/what-our-clients-says.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img class="image" src="./img/th (2).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img class="image" src="./img/th (3).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img class="image" src="./img/th (4).jpg" style="width:100%">  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img class="image" src="./img/th (5).jpg" style="width:100%"> 
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img class="image" src="./img/th (6).jpg" style="width:100%">
+          </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        <section class="destination" id="destination">
+            <div class="title1">
+                <h2>Our Latest Blog <br> About Tour</h2>
+            </div>
+            <div class="destination-content1">
+                <div class="col-content">
+                    <img src="img/img-1.jpg">
+                    <h5>Machu Picchu</h5>
+                    <p>PERU</p>
+                </div>
+                <div class="col-content">
+                    <img src="img/img-2.jpg">
+                    <h5>Machu Picchu</h5>
+                    <p>PERU</p>
+                </div>
+                <div class="col-content">
+                    <img src="img/img-3.jpg">
+                    <h5>Machu Picchu</h5>
+                    <p>PERU</p>
+                </div>
+                <div class="col-content">
+                    <img src="img/img-4.jpg">
+                    <h5>Machu Picchu</h5>
+                    <p>PERU</p>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="home-btn1">View all</a>
+        <section id="contact">
+            <div class="footer">
+                <div class="main">
+                    <div class="list">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Tour</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="newsletter1">
+                    <div class="news-text1">
+                        <h2>Get in Touch</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> <span>sed do eiusmod tempor incididunt.</span></p>
+                    </div>
+                    <div class="send">
+                        <form>
+                            <input type="email" placeholder="Enter Your Email Address" required>
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <div class="end-text">
+                <p>Copyright ©2023 All rights reserved</p>
+            </div>
+        </section>
+        <script src="./index.js"></script>
+</body>
+</html>
